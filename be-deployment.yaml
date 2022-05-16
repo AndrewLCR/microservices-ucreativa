@@ -45,4 +45,4 @@ spec:
       volumes:
         - name: mysql-pvc
           persistentVolumeClaim:
-            claimName: mysql
+            claimName: mysql-pv-claim
